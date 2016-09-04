@@ -1,11 +1,12 @@
-@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
-@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css);
+@import url(font-awesome.min.css);
 .header {
 	background-image: url("faday.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 
+In all of the elements that are in the column (so in my case, the images
+	), I included in their CSS:
 div>ul>li>a>img {
 	position: absolute;
 	left: 0;
@@ -18,7 +19,13 @@ div>ul>li>a>img {
 .center {
 	text-align: center;
 }
-
+div.hi { 
+    width: 35px;
+    height: 5px;
+	border-radius: 5px;
+    margin: 6px 0;
+    background-color: white;
+}
 ul>li>a {
 	text-decoration: none;
 }
