@@ -1,0 +1,867 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>F. A. Day</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="w3.css">
+<link rel="stylesheet"
+	href="w3-theme-teal.css">
+<link rel="stylesheet"
+	href="font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="style.css">
+
+
+<style>
+.w3-sidenav a {
+	padding: 16px;
+	font-weight: bold
+}
+</style>
+<script src="day.js"></script>
+</head>
+<body>
+
+	<nav class="w3-sidenav w3-collapse w3-white w3-animate-left w3-card-2"
+		style="z-index: 3; width: 250px;" id="mySidenav">
+		<a style="text-decoration: none" href="index.html"
+			class="w3-border-bottom w3-large"><h4 style="color: blue;">F.A.
+				Day Middle School</h4></a> <a style="text-decoration: none" href="index.html"
+			onclick="w3_close()"
+			class="w3-text-teal w3-hide-large w3-closenav w3-large">Close <i
+			class="fa fa-remove"></i></a> <a style="text-decoration: none" href="#"
+			class="w3-light-grey w3-medium">Home</a>
+		<div class="w3-accordion">
+			<a style="text-decoration: none" onclick="myAccordion('demo')"
+				href="javascript:void(0)">Welcome <i class="fa fa-caret-down"></i>
+			</a>
+			<div id="demo"
+				class="w3-accordion-content w3-animate-left w3-padding">
+				<a style="text-decoration: none" href="principal.html">From The
+					Principal</a> <a style="text-decoration: none" href="admin.html">Administration</a>
+				<a style="text-decoration: none" href="back.html">Back To School
+					Info</a>
+			</div>
+		</div>
+		<div class="w3-accordion">
+			<a style="text-decoration: none" onclick="myAccordion('demo2')"
+				href="javascript:void(0)">Our School <i class="fa fa-caret-down"></i>
+			</a>
+			<div id="demo2"
+				class="w3-accordion-content w3-animate-left w3-padding">
+				<a style="text-decoration: none"
+					href="http://www.newton.k12.ma.us/domain/761">School Profile</a> <a
+					style="text-decoration: none"
+					href="http://www.newton.k12.ma.us/domain/765">School
+					Improvement Plan</a> <a style="text-decoration: none"
+					href="http://www.newton.k12.ma.us/domain/766">Curriculum</a> <a
+					style="text-decoration: none"
+					href="http://www.newton.k12.ma.us/domain/767">Directions</a> <a
+					style="text-decoration: none"
+					href="http://www.newton.k12.ma.us/domain/770">EDCO</a> <a
+					style="text-decoration: none"
+					href="http://www.newton.k12.ma.us/Page/46">Calendars And
+					Schedules</a> <a style="text-decoration: none"
+					href="http://www.newton.k12.ma.us/domain/772">School Nurse</a> <a
+					style="text-decoration: none"
+					href="http://www.newton.k12.ma.us/domain/1174">Dissmissals And
+					Drop-Offs</a>
+			</div>
+		</div>
+		<a style="text-decoration: none"
+			href="http://www.newton.k12.ma.us/domain/843">Classrooms And
+			Staff</a> <a style="text-decoration: none"
+			href="http://mslibraries.newton.k12.ma.us/faday">Library</a><a
+			style="text-decoration: none"
+			href="http://www.newton.k12.ma.us/domain/719">PTO</a>
+		<div class="w3-accordion">
+			<a style="text-decoration: none" onclick="myAccordion('demo3')"
+				href="javascript:void(0)">Student Activities <i
+				class="fa fa-caret-down"></i>
+			</a>
+			<div id="demo3"
+				class="w3-accordion-content w3-animate-left w3-padding">
+				<a style="text-decoration: none"
+					href="http://www.newton.k12.ma.us/domain/853">Clubs</a> <a
+					style="text-decoration: none"
+					href="https://sites.google.com/a/newton.k12.ma.us/day-drama/">Drama</a>
+				<a style="text-decoration: none"
+					href="http://fadaysports.weebly.com/">Sports</a>
+			</div>
+		</div>
+		<div class="w3-accordion">
+			<a style="text-decoration: none" onclick="myAccordion('demo4')"
+				href="javascript:void(0)">People <i class="fa fa-caret-down"></i>
+			</a>
+			<div id="demo4"
+				class="w3-accordion-content w3-animate-left w3-padding">
+				<a style="text-decoration: none"
+					href="phttp://www.newton.k12.ma.us/Page/1326">Families</a> <a
+					style="text-decoration: none"
+					href="http://www.newton.k12.ma.us/Page/85">Staff</a> <a
+					style="text-decoration: none"
+					href="http://www.newton.k12.ma.us/Page/1328">Students</a> <a
+					style="text-decoration: none"
+					href="http://www.newton.k12.ma.us/Page/89">Community</a>
+			</div>
+		</div>
+	</nav>
+
+	<div class="w3-overlay w3-hide-large w3-animate-opacity"
+		onclick="w3_close()" style="cursor: pointer" id="myOverlay"></div>
+
+	<div class="w3-main" style="margin-left: 250px;">
+
+		<div id="myTop"
+			class="w3-top w3-container w3-padding-16 w3-theme w3-large">
+			<i
+				class="fa fa-bars w3-opennav w3-hide-large w3-xlarge w3-margin-left w3-margin-right"
+				onclick="w3_open()"></i> <span id="myIntro" class="w3-hide">F.
+				A. Day Middle School</span>
+		</div>
+
+		<h1 id="header" style="padding-left: 32px;"></h1>
+
+		<div class="w3-container w3-padding-32" style="padding-left: 32px">
+			<div class="w3-third">
+				<h2 class="center">Recources</h2>
+				<ul class="nodecor center">
+					<li><a style="text-decoration: none"
+						href="https://drive.google.com/a/newton.k12.ma.us"><img
+							src="Google Drive.png" height="15%" width="45%"></a>
+						<hr noshade></li>
+					<li><a style="text-decoration: none"
+						href="http://schoology.newton.k12.ma.us/login/ldap?&school=105120621"><img
+							src="schoology.png" height="14%" width="45%"></a>
+						<hr noshade></li>
+					<li><a style="text-decoration: none"
+						href="http://npspw.newton.k12.ma.us/"><img
+							src="NPSPassword.png"></a>
+						<hr noshade></li>
+					<li><a style="text-decoration: none"
+						href="https://www.familyid.com/day-middle-school"><img
+							src="famid.png" height="14%" width="38%" alt="FamilyID"></a>
+						<hr noshade></li>
+					<li><a style="text-decoration: none"
+						href="https://issuu.com/thedaytime" target="_blank"><img
+							src="daytime.png" height="25%" width="45%" alt="The Daytime"></a>
+						<hr noshade></li>
+					<li><a style="text-decoration: none"
+						href="http://www.newton.k12.ma.us/Page/2608" target="_blank"><img
+							src="HOUR OF CODE - BUTTON.jpg" height="18%" width="45%"
+							alt="Hour of Code"></a>
+						<hr noshade></li>
+					<li><a style="text-decoration: none"
+						href="http://www.newton.k12.ma.us/Page/2580" target="_blank">2016-17
+							Day Events Calendar</a>
+						<hr noshade></li>
+					<li><a style="text-decoration: none"
+						href="http://www.newton.k12.ma.us/Page/2581" target="_blank">2016-17
+							Days of the Cycle Calendar</a>
+						<hr noshade></li>
+					<li><a style="text-decoration: none"
+						href="http://schedules.schedulestar.com/Day-Middle-School-Newton-MA"
+						target="_blank">F.A. Day Sports Schedules</a>
+						<hr noshade></li>
+					<li><a style="text-decoration: none"
+						href="https://www.google.com/calendar/embed?src=newton.k12.ma.us_j6csv8dquugqqqqse5d55uu8lo%40group.calendar.google.com&amp;ctz=America/New_York"
+						target="_blank">Day Drama Production Calendar</a>
+						<hr noshade></li>
+					<li><a style="text-decoration: none"
+						href="http://www.newton.k12.ma.us/cms/lib8/MA01907692/Centricity/Domain/26/F.A. Day Student Supply List 2016-17.pdf"
+						target="_blank">2016-17 School Supply List</a>
+						<hr noshade></li>
+					<li><a style="text-decoration: none"
+						href="http://www.newton.k12.ma.us/Page/2585" target="_blank">2016-17
+							NPS Calendar</a>
+						<hr noshade></li>
+					<li><a style="text-decoration: none"
+						href="http://www.newton.k12.ma.us/cms/lib8/MA01907692/Centricity/Domain/785/2014_2016%20Survival%20Guide.pdf"
+						target="_blank">Day Middle School Survival Guide 2016</a>
+						<hr noshade></li>
+					<li><a style="text-decoration: none"
+						href="http://schools.whitsons.com/ma/newton-public-schools?page=menu"
+						target="_blank">Lunch Menu</a>
+						<hr noshade></li>
+					<li><a style="text-decoration: none"
+						href="https://www.myschoolbucks.com/ver2/login/getmain?requestAction=home"
+						target="_blank">My School Bucks</a>
+						<hr noshade></li>
+					<li><a style="text-decoration: none"
+						href="http://www.newton.k12.ma.us/cms/lib8/MA01907692/Centricity/Shared/Districtwide%20Forms/Out%20of%20Assigned%20District%20Student%20Placement%20Policy_0_0.pdf"
+						target="_blank">Out of District Statement</a>
+						<hr noshade></li>
+				</ul>
+
+
+				<br>
+
+			</div>
+			<div class="w3-third">
+				<h2 class="center">Quicklinks</h2>
+				<ul class="nodecor center">
+					<li><a style="text-decoration: none"
+						href="https://skyward.iscorp.com/scripts/wsisa.dll/WService=wsedunewtonma/seplog01.w"
+						target="_parent"><img src="skyward link image.png"
+							height="15%" width="55%" alt="Skyward"></a>
+						<hr noshade></li>
+					<li><a style="text-decoration: none"
+						href="http://npsgoogle.newton.k12.ma.us/" target="_blank"><img
+							src="Google Drive.png" height="15%" width="45%" alt="GoogleDocs"></a>
+						<hr noshade></li>
+					<li><a style="text-decoration: none"
+						href="http://www.newtonps.schoollunchapp.com " target="_blank"><img
+							src="ApplyOnlineGraphic-Newton.png" height="17%" width="55%"
+							alt="Apply for free and reduced meals"></a>
+						<hr noshade></li>
+					<li><a style="text-decoration: none"
+						href="http://www.schoollunchstatus.com" target="_blank">Check
+							status of Free &amp; Reduced Lunch Application</a>
+						<hr noshade></li>
+					<li><a style="text-decoration: none"
+						href="http://www.newton.k12.ma.us/Page/2553" target="_parent">High
+							School Start Time Working Group</a>
+						<hr noshade></li>
+					<li><a style="text-decoration: none"
+						href="http://www.newtonma.gov/gov/health/school_health/default.asp"
+						target="_blank">City of Newton Health Services</a>
+						<hr noshade></li>
+					<li><a style="text-decoration: none"
+						href="http://www.newton.k12.ma.us/Page/1164" target="_blank">Emergency
+							Response Information</a>
+						<hr noshade></li>
+					<li><a style="text-decoration: none"
+						href="http://www.applitrack.com/newton/onlineapp/default.aspx?all=1"
+						target="_blank">Employment Opportunities</a>
+						<hr noshade></li>
+					<li><a style="text-decoration: none"
+						href="http://www.newton.k12.ma.us/Page/142" target="_blank">Fee
+							Payments &amp; Waiver Information</a>
+						<hr noshade></li>
+					<li><a style="text-decoration: none"
+						href="http://www.newton.k12.ma.us/Page/863" target="_blank">METCO</a>
+						<hr noshade></li>
+					<li><a style="text-decoration: none"
+						href="http://www.newtonpac.org" target="_blank">Newton Parent
+							Advisory Council for Special Education</a>
+						<hr noshade></li>
+					<li><a style="text-decoration: none"
+						href="http://respect.newton.k12.ma.us/" target="_blank">Report
+							Bullying &amp; Anti-bullying Resources</a>
+						<hr noshade></li>
+					<li><a style="text-decoration: none"
+						href="http://www.newton.k12.ma.usPage/800" target="_blank">School
+							Building Rentals</a>
+						<hr noshade></li>
+					<li><a style="text-decoration: none"
+						href="http://www.newton.schoolwires.net/cms/lib8/MA01907692/Centricity/Domain/49/students_RandR.pdf"
+						target="_blank">Student Rights and Responsibilities</a>
+						<hr noshade></li>
+					<li><a style="text-decoration: none"
+						href="http://www.newton.k12.ma.us/Page/1163" target="_parent">Weather
+							Policy</a>
+						<hr noshade></li>
+					<li><a style="text-decoration: none"
+						href="http://www.newton.k12.ma.us/Page/1171" target="_blank">Yearly
+							School Progress Report Card</a>
+						<hr noshade></li>
+				</ul>
+
+
+			</div>
+			<div class="w3-third">
+				<div style="text-align: center;" class="column-inner">
+					<div id="sw-content-container1" class="region ui-hp">
+						<div id="pmi-6328">
+
+
+
+							<div id="sw-module-60340">
+
+
+								<div id="module-content-6034">
+									<div class="ui-widget app flexpage">
+										<div class="ui-widget-header ui-helper-hidden"></div>
+
+										<div class="ui-widget-detail">
+
+											<div class="ui-article">
+												<span><img
+													src="Screen Shot 2016-05-09 at 10.53.29 AM.png"
+													alt="Student Absence Line " title="Student Absence Line"
+													height="24%" width="45%" style="border: px solid;"><br>
+													<a style="text-decoration: none" href="tel:(617)559-9102"><span
+														style="font-size: 10pt;">(617) 559-9102</span></a></span>
+												<hr>
+											</div>
+											<div class="clear"></div>
+
+										</div>
+										<div class="ui-widget-footer">
+
+
+
+											<div class="clear"></div>
+										</div>
+									</div>
+									<input type="hidden" id="hidFullPath"
+										value="http://www.newton.k12.ma.us/"> <input
+										type="hidden" id="hidModuleInstanceID0" value="6034">
+
+								</div>
+
+							</div>
+						</div>
+						<div id="pmi-2722">
+							<div id="module-content-2692">
+								<div class="ui-widget app upcomingevents">
+									<div class="ui-widget-header">
+										<h2>F.A. Day Calendar</h2>
+									</div>
+									<div class="ui-widget-detail">
+										<ul class="ui-articles">
+											<li class="last">
+												<div class="ui-article ui-clear upcoming-column-container">
+													<div class="upcoming-column left">
+														<h3 class="ui-article-title sw-calendar-block-date">
+															<span class="joel-month">September</span> 13
+														</h3>
+													</div>
+													<div class="upcoming-column right">
+														<p class="ui-article-description">
+															<span class="sw-calendar-block-time">8:00 AM -
+																9:30 AM</span> <span class="sw-calendar-block-title"><a
+																style="text-decoration: none"
+																href="&#10;http://www.newton.k12.ma.us/site/Default.aspx?PageID=46&amp;PageType=17&amp;DomainID=26&amp;ModuleInstanceID=26&amp;EventDateID=6501">New
+																	Parents Morning Coffee - in library</a></span>
+														</p>
+														<hr>
+													</div>
+												</div>
+											</li>
+										</ul>
+										<a style="text-decoration: none" class="view-calendar-link"
+											href="http://www.newton.k12.ma.us/Page/46"><span>View
+												Calendar</span></a>
+										<hr>
+									</div>
+									<div class="ui-widget-footer"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+			<div style="text-align: center;" id="sw-content-container2"
+				class="region ui-hp">
+				<div style="text-align: center;" id="pmi-6273">
+
+
+
+					<div style="text-align: center;" id="sw-module-59860">
+						<script type="text/javascript">
+							$(document)
+									.ready(
+											function() {
+												var DomainID = '26';
+												var PageID = '45';
+												var RenderLoc = '0';
+												var MIID = '5986';
+
+												//added to check to make sure moderated content doesn't bleed through the dialog
+												if ($('#dialog-overlay-WindowLargeModal-body.moderateContent').length > 0) {
+													$("#module-content-" + MIID)
+															.find(
+																	".ui-widget-detail")
+															.find(".ui-article")
+															.append(
+																	"<p>&nbsp;</p>");
+												}
+											});
+						</script>
+
+						<script type="text/javascript">
+							$(document).ready(function() {
+								CheckScript('ModuleView');
+								CheckScript('Mustache');
+							});
+						</script>
+
+						<div style="text-align: center;" id="module-content-5986">
+							<div style="text-align: center;"
+								class="ui-widget app announcements">
+								<div style="text-align: center;" class="ui-widget-header">
+									<hr>
+									<h2>F.A. Day Announcements</h2>
+								</div>
+
+								<div style="text-align: center;" class="ui-widget-detail">
+									<ul class="ui-articles">
+										<li>
+											<div style="text-align: center;" class="ui-article">
+												<div style="text-align: center;"
+													class="ui-article-description">
+													<span><p>
+															<img style="border: px solid;" title="Student Supply"
+																src="http://extend.schoolwires.com/ClipartGallery/images/22475228.jpg"
+																alt="Student Supply " width="10%" height="8%">
+														</p>
+														<hr>
+														<p>
+															<a style="text-decoration: none"
+																href="http://www.newton.k12.ma.us/cms/lib8/MA01907692/Centricity/Domain/26/F.A.%20Day%20Student%20Supply%20List%202016-17.pdf">2016
+																- 2017 F.A. Day Student Supply List</a>
+														</p></span>
+												</div>
+												<div style="text-align: center;" class="ui-article-controls">
+
+
+												</div>
+												<div style="text-align: center;" class="clear"></div>
+											</div>
+										</li>
+									</ul>
+								</div>
+								<div style="text-align: center;" class="ui-widget-footer">
+
+									<div style="text-align: center;"
+										class="app-level-social-follow"></div>
+									<div style="text-align: center;" class="clear"></div>
+								</div>
+							</div>
+							<input type="hidden" id="hidFullPath"
+								value="http://www.newton.k12.ma.us/"> <input
+								type="hidden" id="hidModuleInstanceID0" value="5986">
+							<script type="text/javascript">
+								$(document).ready(function() {
+								});
+								function LoadGroupedData(container, MIID, PMI,
+										groupYear, groupMonth, groupBy, tag) {
+									//ViewToUse looks at the hidden Sidebar List View defined in the Builder View.
+									var viewToUse = "";
+									if ($('#hid-' + MIID + '-SidebarListView').length > 0) {
+										viewToUse = $(
+												"#hid-" + MIID
+														+ "-SidebarListView")
+												.val();
+									}
+									;
+									GetContent(
+											'http://www.newton.k12.ma.us//cms/UserControls/ModuleView/ModuleViewRendererWrapper.aspx?DomainID=26&PageID=45&ModuleInstanceID='
+													+ MIID
+													+ '&PageModuleInstanceID='
+													+ PMI
+													+ '&RenderLoc=0&FromRenderLoc=0&GroupYear='
+													+ groupYear
+													+ '&GroupMonth='
+													+ groupMonth
+													+ '&GroupByField='
+													+ groupBy
+													+ '&EnableQuirksMode=0&ViewID='
+													+ viewToUse + '&Tag=' + tag,
+											container, 2, 'chkSidebar();');
+								}
+								function LoadData(container, MIID, PMI,
+										flexDataID, groupYear, groupMonth,
+										groupBy, targetView, tag) {
+									if (targetView !== undefined
+											|| targetView.Length() == 0) {
+										//targetView looks at the hidden Detail View defined in the Builder View.
+										targetView = $(
+												'#hid-' + MIID + '-DetailView')
+												.val();
+									}
+									GetContent(
+											'http://www.newton.k12.ma.us//cms/UserControls/ModuleView/ModuleViewRendererWrapper.aspx?DomainID=26&PageID=45&ModuleInstanceID='
+													+ MIID
+													+ '&PageModuleInstanceID='
+													+ PMI
+													+ '&FlexDataID='
+													+ flexDataID
+													+ '&GroupYear='
+													+ groupYear
+													+ '&GroupMonth='
+													+ groupMonth
+													+ '&GroupByField='
+													+ groupBy
+													+ '&RenderLoc=0&FromRenderLoc=0&EnableQuirksMode=0&Tag='
+													+ tag
+													+ '&ViewID='
+													+ targetView, container, 2,
+											'chkSidebar();');
+								}
+								function LoadTaggedData(container, MIID, PMI,
+										tag) {
+									//ViewToUse looks at the hidden Sidebar List View defined in the Builder View.
+									var viewToUse = "";
+									if ($('#hid-' + MIID + '-SidebarListView').length > 0) {
+										viewToUse = $(
+												"#hid-" + MIID
+														+ "-SidebarListView")
+												.val();
+									}
+									;
+									GetContent(
+											'http://www.newton.k12.ma.us//cms/UserControls/ModuleView/ModuleViewRendererWrapper.aspx?DomainID=26&PageID=45&ModuleInstanceID='
+													+ MIID
+													+ '&PageModuleInstanceID='
+													+ PMI
+													+ '&RenderLoc=0&FromRenderLoc=0&Tag='
+													+ tag
+													+ '&EnableQuirksMode=0&ViewID='
+													+ viewToUse, container, 2,
+											'chkSidebar();');
+								}
+							</script>
+						</div>
+
+					</div>
+				</div>
+				<div style="text-align: center;" id="pmi-6059">
+
+
+
+					<div style="text-align: center;" id="sw-module-57940">
+						<script type="text/javascript">
+							$(document)
+									.ready(
+											function() {
+												var DomainID = '26';
+												var PageID = '45';
+												var RenderLoc = '0';
+												var MIID = '5794';
+
+												//added to check to make sure moderated content doesn't bleed through the dialog
+												if ($('#dialog-overlay-WindowLargeModal-body.moderateContent').length > 0) {
+													$("#module-content-" + MIID)
+															.find(
+																	".ui-widget-detail")
+															.find(".ui-article")
+															.append(
+																	"<p>&nbsp;</p>");
+												}
+											});
+						</script>
+
+						<script type="text/javascript">
+							$(document).ready(function() {
+								CheckScript('ModuleView');
+								CheckScript('Mustache');
+							});
+						</script>
+
+						<div style="text-align: center;" id="module-content-5794">
+							<div style="text-align: center;" class="ui-widget app headlines">
+								<hr>
+								<div style="text-align: center;" class="ui-widget-header">
+									<h3>F.A. Day News</h3>
+								</div>
+								<hr>
+								<div style="text-align: center;" class="ui-widget-detail"
+									id="sw-app-headlines">
+									<ul class="ui-articles">
+										<li>
+											<div style="text-align: center;"
+												class="ui-article last-article">
+												<a style="text-decoration: none" class="ui-article-thumb"
+													href="http://www.newton.k12.ma.us/site/default.aspx?PageType=3&DomainID=26&ModuleInstanceID=5794&ViewID=6446EE88-D30C-497E-9316-3F8874B3E108&RenderLoc=0&FlexDataID=7962&PageID=45"
+													style="display: inline;"><span class="img"><img
+														alt="" height="6%" width="10%" src="DESE.png"></span></a>
+												<hr>
+												<p class="ui-article-title has-thumb">
+													<a style="text-decoration: none"
+														style="text-decoration:none;"
+														href="http://www.newton.k12.ma.us/site/default.aspx?PageType=3&DomainID=26&ModuleInstanceID=5794&ViewID=6446EE88-D30C-497E-9316-3F8874B3E108&RenderLoc=0&FlexDataID=7962&PageID=45"><span>F.A.
+															Day 2015 DESE Report Card</span></a>
+												</p>
+												<hr>
+												<p class="ui-article-description has-thumb"></p>
+
+												<div style="text-align: center;" class="clear has-thumb"></div>
+											</div>
+										</li>
+									</ul>
+								</div>
+
+								<div style="text-align: center;" class="ui-widget-footer">
+
+
+									<div style="text-align: center;" class="clear"></div>
+								</div>
+							</div>
+							<script type="text/javascript">
+								$(document)
+										.ready(
+												function() {
+													$(document)
+															.on(
+																	'click',
+																	'a.ui-article-thumb',
+																	function() {
+																		window.location = $(
+																				this)
+																				.attr(
+																						'href');
+																	});
+
+													$('#sw-app-headlines')
+															.find('img')
+															.each(
+																	function() {
+																		if ($
+																				.trim(this.src) == '') {
+																			$(
+																					this)
+																					.parent()
+																					.parent()
+																					.remove();
+																		}
+																	});
+
+													// Jason Smith - 12/9/2014 - Removed due to bandwidth implications
+
+												});
+							</script>
+							<input type="hidden" id="hidFullPath"
+								value="http://www.newton.k12.ma.us/"> <input
+								type="hidden" id="hidModuleInstanceID0" value="5794">
+							<script type="text/javascript">
+								$(document).ready(function() {
+								});
+								function LoadGroupedData(container, MIID, PMI,
+										groupYear, groupMonth, groupBy, tag) {
+									//ViewToUse looks at the hidden Sidebar List View defined in the Builder View.
+									var viewToUse = "";
+									if ($('#hid-' + MIID + '-SidebarListView').length > 0) {
+										viewToUse = $(
+												"#hid-" + MIID
+														+ "-SidebarListView")
+												.val();
+									}
+									;
+									GetContent(
+											'http://www.newton.k12.ma.us//cms/UserControls/ModuleView/ModuleViewRendererWrapper.aspx?DomainID=26&PageID=45&ModuleInstanceID='
+													+ MIID
+													+ '&PageModuleInstanceID='
+													+ PMI
+													+ '&RenderLoc=0&FromRenderLoc=0&GroupYear='
+													+ groupYear
+													+ '&GroupMonth='
+													+ groupMonth
+													+ '&GroupByField='
+													+ groupBy
+													+ '&EnableQuirksMode=0&ViewID='
+													+ viewToUse + '&Tag=' + tag,
+											container, 2, 'chkSidebar();');
+								}
+								function LoadData(container, MIID, PMI,
+										flexDataID, groupYear, groupMonth,
+										groupBy, targetView, tag) {
+									if (targetView !== undefined
+											|| targetView.Length() == 0) {
+										//targetView looks at the hidden Detail View defined in the Builder View.
+										targetView = $(
+												'#hid-' + MIID + '-DetailView')
+												.val();
+									}
+									GetContent(
+											'http://www.newton.k12.ma.us//cms/UserControls/ModuleView/ModuleViewRendererWrapper.aspx?DomainID=26&PageID=45&ModuleInstanceID='
+													+ MIID
+													+ '&PageModuleInstanceID='
+													+ PMI
+													+ '&FlexDataID='
+													+ flexDataID
+													+ '&GroupYear='
+													+ groupYear
+													+ '&GroupMonth='
+													+ groupMonth
+													+ '&GroupByField='
+													+ groupBy
+													+ '&RenderLoc=0&FromRenderLoc=0&EnableQuirksMode=0&Tag='
+													+ tag
+													+ '&ViewID='
+													+ targetView, container, 2,
+											'chkSidebar();');
+								}
+								function LoadTaggedData(container, MIID, PMI,
+										tag) {
+									//ViewToUse looks at the hidden Sidebar List View defined in the Builder View.
+									var viewToUse = "";
+									if ($('#hid-' + MIID + '-SidebarListView').length > 0) {
+										viewToUse = $(
+												"#hid-" + MIID
+														+ "-SidebarListView")
+												.val();
+									}
+									;
+									GetContent(
+											'http://www.newton.k12.ma.us//cms/UserControls/ModuleView/ModuleViewRendererWrapper.aspx?DomainID=26&PageID=45&ModuleInstanceID='
+													+ MIID
+													+ '&PageModuleInstanceID='
+													+ PMI
+													+ '&RenderLoc=0&FromRenderLoc=0&Tag='
+													+ tag
+													+ '&EnableQuirksMode=0&ViewID='
+													+ viewToUse, container, 2,
+											'chkSidebar();');
+								}
+							</script>
+						</div>
+
+					</div>
+				</div>
+				<div style="text-align: center;" id="pmi-2765">
+
+
+
+					<div style="text-align: center;" id="sw-module-10730">
+						<script type="text/javascript">
+							$(document)
+									.ready(
+											function() {
+												var DomainID = '26';
+												var PageID = '45';
+												var RenderLoc = '0';
+												var MIID = '1073';
+
+												//added to check to make sure moderated content doesn't bleed through the dialog
+												if ($('#dialog-overlay-WindowLargeModal-body.moderateContent').length > 0) {
+													$("#module-content-" + MIID)
+															.find(
+																	".ui-widget-detail")
+															.find(".ui-article")
+															.append(
+																	"<p>&nbsp;</p>");
+												}
+											});
+						</script>
+
+						<script type="text/javascript">
+							$(document).ready(function() {
+								CheckScript('ModuleView');
+								CheckScript('Mustache');
+							});
+						</script>
+
+						<div style="text-align: center;" id="module-content-1073">
+							<div style="text-align: center;"
+								class="ui-widget app announcements">
+								<div style="text-align: center;"
+									class="ui-widget-header ui-helper-hidden"></div>
+
+								<div style="text-align: center;" class="ui-widget-detail">
+									<ul class="ui-articles">
+									</ul>
+								</div>
+								<div style="text-align: center;" class="ui-widget-footer">
+
+									<div style="text-align: center;"
+										class="app-level-social-follow"></div>
+									<div style="text-align: center;" class="clear"></div>
+								</div>
+							</div>
+							<input type="hidden" id="hidFullPath"
+								value="http://www.newton.k12.ma.us/"> <input
+								type="hidden" id="hidModuleInstanceID0" value="1073">
+							<script type="text/javascript">
+								$(document).ready(function() {
+								});
+								function LoadGroupedData(container, MIID, PMI,
+										groupYear, groupMonth, groupBy, tag) {
+									//ViewToUse looks at the hidden Sidebar List View defined in the Builder View.
+									var viewToUse = "";
+									if ($('#hid-' + MIID + '-SidebarListView').length > 0) {
+										viewToUse = $(
+												"#hid-" + MIID
+														+ "-SidebarListView")
+												.val();
+									}
+									;
+									GetContent(
+											'http://www.newton.k12.ma.us//cms/UserControls/ModuleView/ModuleViewRendererWrapper.aspx?DomainID=26&PageID=45&ModuleInstanceID='
+													+ MIID
+													+ '&PageModuleInstanceID='
+													+ PMI
+													+ '&RenderLoc=0&FromRenderLoc=0&GroupYear='
+													+ groupYear
+													+ '&GroupMonth='
+													+ groupMonth
+													+ '&GroupByField='
+													+ groupBy
+													+ '&EnableQuirksMode=0&ViewID='
+													+ viewToUse + '&Tag=' + tag,
+											container, 2, 'chkSidebar();');
+								}
+								function LoadData(container, MIID, PMI,
+										flexDataID, groupYear, groupMonth,
+										groupBy, targetView, tag) {
+									if (targetView !== undefined
+											|| targetView.Length() == 0) {
+										//targetView looks at the hidden Detail View defined in the Builder View.
+										targetView = $(
+												'#hid-' + MIID + '-DetailView')
+												.val();
+									}
+									GetContent(
+											'http://www.newton.k12.ma.us//cms/UserControls/ModuleView/ModuleViewRendererWrapper.aspx?DomainID=26&PageID=45&ModuleInstanceID='
+													+ MIID
+													+ '&PageModuleInstanceID='
+													+ PMI
+													+ '&FlexDataID='
+													+ flexDataID
+													+ '&GroupYear='
+													+ groupYear
+													+ '&GroupMonth='
+													+ groupMonth
+													+ '&GroupByField='
+													+ groupBy
+													+ '&RenderLoc=0&FromRenderLoc=0&EnableQuirksMode=0&Tag='
+													+ tag
+													+ '&ViewID='
+													+ targetView, container, 2,
+											'chkSidebar();');
+								}
+								function LoadTaggedData(container, MIID, PMI,
+										tag) {
+									//ViewToUse looks at the hidden Sidebar List View defined in the Builder View.
+									var viewToUse = "";
+									if ($('#hid-' + MIID + '-SidebarListView').length > 0) {
+										viewToUse = $(
+												"#hid-" + MIID
+														+ "-SidebarListView")
+												.val();
+									}
+									;
+									GetContent(
+											'http://www.newton.k12.ma.us//cms/UserControls/ModuleView/ModuleViewRendererWrapper.aspx?DomainID=26&PageID=45&ModuleInstanceID='
+													+ MIID
+													+ '&PageModuleInstanceID='
+													+ PMI
+													+ '&RenderLoc=0&FromRenderLoc=0&Tag='
+													+ tag
+													+ '&EnableQuirksMode=0&ViewID='
+													+ viewToUse, container, 2,
+											'chkSidebar();');
+								}
+							</script>
+						</div>
+
+					</div>
+				</div>
+			</div>
+
+
+		</div>
+
+		<footer class="w3-container w3-theme w3-padding-32"
+			style="padding-left: 32px">
+			<p>Powered By W3.css and jQuery</p>
+		</footer>
+
+	</div>
+
+
+
+</body>
+</html>
