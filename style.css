@@ -1,0 +1,232 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+.header {
+	background-image: url("faday.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+In all of the elements that are in the column (so in my case, the images
+	), I included in their CSS:
+div>ul>li>a>img {
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* GroupEnd */
+.center {
+	text-align: center;
+}
+
+ul>li>a {
+	text-decoration: none;
+}
+
+div.center {
+	text-align: center;
+}
+
+hr {
+	color: black;
+}
+
+ul {
+	list-style: none;
+}
+
+
+
+ul>li {
+	list-style: none;
+}
+
+.nav {
+	font-size: 18px;
+	display: inline-block;
+	width: 100%;
+	height: auto;
+	background-color: #3b3b3b;
+	overflow: auto;
+	text-align: center;
+	font-family: Montserrat, sans-serif;
+	background: #333333;
+}
+
+.nav a {
+	color: white;
+	margin: 1%;
+	text-align: center;
+}
+
+#header {
+	background-image: url("faday.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	text-align: center;
+	color: #c0c0c0;
+	background-size: cover;
+	padding: 20%;
+}
+
+#margin {
+	margin-top: 9%;
+	margin-bottom: 8%;
+}
+
+#fall {
+	margin-top: 3.75em;
+	background-image: url("bird.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding: 30%;
+}
+
+#me {
+	margin-top: 3.75em;
+	background-image: url("me.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding: 30%;
+}
+
+#lake {
+	margin-top: .25em;
+	background-image: url("tree.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding: 30%;
+}
+
+#cliff {
+	background-image: url("cliff.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding: 15%;
+	margin-top: .25em;
+	border-top: 1.5em solid white;
+}
+
+#falls {
+	margin-top: .25em;
+	background-image: url("falls.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding: 30%;
+}
+
+#flower {
+	margin-top: 3.75em;
+	background-image: url("lake.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	image-orientation: from-image;
+	padding-top: 128.5%;
+}
+
+.margin {
+	margin-top: 13%;
+	margin-bottom: 12%;
+}
+
+.center {
+	text-align: center;
+}
+
+#cssmenu, #cssmenu ul, #cssmenu ul li, #cssmenu ul li a, #cssmenu {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	list-style: none;
+	line-height: 1;
+	display: block;
+	position: relative;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+#cssmenu {
+	font-family: Montserrat, sans-serif;
+	background: #333333;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	color: #ffffff;
+	height: 45px;
+	text-align: center;
+}
+
+#cssmenu>ul>li {
+	float: left;
+}
+
+#cssmenu>ul>li>a {
+	padding: 17px;
+	font-size: 12px;
+	letter-spacing: 1px;
+	text-decoration: none;
+	color: #dddddd;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.hi: a {
+	color: #dddddd;
+}
+
+#cssmenu>ul>li:hover>a {
+	color: #ffffff;
+	text-decoration: underline;
+	background-color: #111111;
+}
+
+.active {
+	color: #ffffff;
+	text-decoration: underline;
+}
+
+#art {
+	background-image: url("lakerock.jpeg");
+	background-repeat: no-repeat;
+	background-position: center;
+	text-align: center;
+	color: #c0c0c0;
+	background-size: cover;
+	padding: 10%;
+	border: .5em solid white;
+}
+
+#bio {
+	background-image: url("me.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	text-align: center;
+	color: #c0c0c0;
+	background-size: cover;
+	background-position: center;
+	padding: 10%;
+	border: .5em solid white;
+}
+
+#biotext {
+	font-size: 2em;
+	font-family: Montserrat, sans-serif;
+	margin-top: 2.5em;
+}
+
+.white {
+	backgrounf-color: white;
+}
+
+.black {background-color ="black"
+	
+}
